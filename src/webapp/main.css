@@ -1,10 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+@import url(https://fonts.googleapis.com/css?family=Homemade%20Apple);
+
+/* CSS for All Pages */
 /* background image */
 .background {
-    background-image: url(images/background.png);
+    background-color: #7d9b76;
+    /*background-image: url(images/background.png);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
  }
 
  /* navigation bar */
@@ -26,7 +31,7 @@
   
 .nav-bar a:hover {
     background-color: #f6f6e9;
-    color: rgb(5, 37, 18);
+    color: #052512;
 }
   
 .nav-bar a.active {
@@ -34,8 +39,9 @@
     color: white;
 }
 
- /* main page headline text */
- .main-headline-container {
+/* CSS for Home Page */
+/* main page headline text */
+.main-headline-container {
     position:relative;
     width:90vw;
     height: 90vh;
@@ -57,11 +63,11 @@
     overflow: hidden;
     font-size: 30px;
     color: rgb(5, 37, 18);;
-    margin-left: 3%;
+    margin-left: 5%;
 }
   
 .main-headline h1 {
-    animation: 5s main-headline;
+    animation: 3s main-headline;
 }
   
 @keyframes main-headline {
@@ -77,6 +83,178 @@
  /* main page selfie */
 .main-selfie {
     width: 65%;
-    border-radius: 50%;
-    margin-left: 20%;
+    border-radius: 20%;
+    margin-left: 10%;
+}
+
+/* CSS for About Me Page */
+#aboutMe-container {
+    background-color: rgba(189, 197, 228, 0.52);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+#aboutMe-intro {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+#aboutMePolaroid {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#polaroid-selfie {
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    border:solid 12px #fff;
+    background:#fff;
+    box-shadow:0 0 15px 0px #555;
+    margin-top: 5%;
+}
+
+#polaroid-selfie img{
+    width: 88%;
+    border: 2px groove #052512;
+}
+
+#polaroid-name {
+    font-size: 150%;
+    font-family: 'Homemade Apple';
+    margin-bottom: -.5%;
+    margin-top: 3%;
+}
+
+#aboutMe_Heading1 {
+    text-align: center;
+    font-size: 450%;
+    color: #052512;
+    letter-spacing: 8px;
+    font-family: "Sofia";
+}
+
+#aboutMe_Heading2 {
+    text-align: center;
+    font-size: 155%;
+    color: white;
+    margin-bottom: -1%;
+    font-family: 'Average Sans';
+    letter-spacing: 1px;
+}
+
+#i-am {
+    text-align: center;
+    padding-left: 3%;
+}
+
+#i-am-para {
+    color: white;
+    text-align: center;
+    font-family: 'Average Sans';
+}
+
+#i-am-phrase {
+    color: white;
+    font-size: 25px;
+    display: inline-flex;
+}
+
+#phrases {
+    display: inline-block;
+    vertical-align: middle;
+    color: #052512;
+    font-family: 'Average Sans';
+}
+
+/* fact section */
+#quick-fact-container {
+    background-color: #052512;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 5%;
+    padding: 2% 3%;
+    display: flex;
+}
+
+#quick-fact-div {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#quick-fact-heading {
+    color: white;
+    font-family: 'Average Sans';
+    margin-top: auto;
+    margin-bottom: auto;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#quick-fact-bio {
+    color: white;
+    text-align: left;
+    font-family: 'Average Sans';
+    font-size: 20px;
+}
+
+#school-fact li{
+    margin-top: 5%;
+    font-size: 23px;
+    color: white;
+    margin-left: 15%;
+    text-align: left;
+    line-height: 40px;
+}
+
+/* gallery */
+#gallery {
+    padding: 5%;
+    background-color: rgba(189, 197, 228, 0.52);
+    margin: 5%;
+    text-align: center;
+}
+
+#gallery-heading {
+    color: #052512;
+    font-family: 'Sofia';
+    margin-top: -4%;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 5px;
+}
+
+#below-gallery-heading {
+    color: #052512;
+    font-family: 'Sofia';
+    margin-top: -2%;
+    text-align: center;
+    font-size: 120%;
+}
+
+#column {
+    margin: 10px;
+    box-shadow: 0 0 5px 1px #46494a;
+}
+
+#column img {
+    width: 100%;
+    display: block;
+}
+
+#allbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0% -5% -4%;
 }
