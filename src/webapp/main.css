@@ -13,7 +13,7 @@
  }
 
  /* navigation bar */
- .nav-bar ul{
+ .nav-bar ul {
     text-align: center;
     padding-top: .5%;
  }
@@ -25,7 +25,7 @@
     text-align: center;
     padding: 10px 25px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.6vw;
     margin: 15px;
 }
   
@@ -61,9 +61,10 @@
 .main-headline {
     width: 100%;
     overflow: hidden;
-    font-size: 30px;
-    color: rgb(5, 37, 18);;
-    margin-left: 5%;
+    font-size: 2.2vw;
+    color: #052512;;
+    margin-left: 10%;
+    margin-top: 25%;
 }
   
 .main-headline h1 {
@@ -80,31 +81,8 @@
     }
 }
 
- /* main page selfie */
-.main-selfie {
-    width: 65%;
-    border-radius: 20%;
-    margin-left: 10%;
-}
-
-/* CSS for About Me Page */
-#aboutMe-container {
-    background-color: rgba(189, 197, 228, 0.52);
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 5%;
-}
-
-#aboutMe-intro {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    display: flex;
-}
-
-#aboutMePolaroid {
-    width: 400px;
+#polaroid {
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -128,13 +106,35 @@
 }
 
 #polaroid-name {
-    font-size: 150%;
+    font-size: 1.7vw;
     font-family: 'Homemade Apple';
     margin-bottom: -.5%;
     margin-top: 3%;
 }
 
-#aboutMe_Heading1 {
+ /* main page selfie */
+.main-selfie {
+    width: 65%;
+    border-radius: 20%;
+    margin-left: 10%;
+}
+
+/* CSS for About Me Page */
+#aboutMe-container {
+    background-color: rgba(189, 197, 228, 0.52);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+#aboutMe-intro {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#i-am h1 {
     text-align: center;
     font-size: 450%;
     color: #052512;
@@ -142,7 +142,7 @@
     font-family: "Sofia";
 }
 
-#aboutMe_Heading2 {
+#i-am h2 {
     text-align: center;
     font-size: 155%;
     color: white;
