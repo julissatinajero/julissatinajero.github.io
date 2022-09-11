@@ -2,14 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Homemade%20Apple);
 
 /* CSS for All Pages */
-/* background image */
+/* background */
 .background {
     background-color: #7d9b76;
-    /*background-image: url(images/background.png);
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; */
  }
 
  /* navigation bar */
@@ -40,6 +35,16 @@
 }
 
 /* CSS for Home Page */
+/* background image */
+.main-background {
+    /*background-color: #7d9b76;*/
+    background-image: url(images/background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+ }
+
 /* main page headline text */
 .main-headline-container {
     position:relative;
@@ -64,7 +69,7 @@
     font-size: 2.2vw;
     color: #052512;;
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 12%;
 }
   
 .main-headline h1 {
