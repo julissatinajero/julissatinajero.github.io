@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sofia);
 @import url(https://fonts.googleapis.com/css?family=Homemade%20Apple);
 
-/* CSS for All Pages */
+/* ------------------------CSS For All Pages------------------------------- */
 /* background */
 .background {
     background-color: #7d9b76;
@@ -34,7 +34,7 @@
     color: white;
 }
 
-/* CSS for Home Page */
+/* ------------------------CSS For Home Page------------------------------- */
 /* background image */
 .main-background {
     /*background-color: #7d9b76;*/
@@ -86,6 +86,7 @@
     }
 }
 
+/* main page polaroid image */
 #polaroid {
     width: 60%;
     margin-left: auto;
@@ -117,14 +118,8 @@
     margin-top: 3%;
 }
 
- /* main page selfie */
-.main-selfie {
-    width: 65%;
-    border-radius: 20%;
-    margin-left: 10%;
-}
-
-/* CSS for About Me Page */
+/* ----------------------CSS For About Me Page----------------------------- */
+/*about me heading and phrases*/
 #aboutMe-container {
     background-color: rgba(189, 197, 228, 0.52);
     margin-left: 8%;
@@ -262,4 +257,172 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0% -5% -4%;
+}
+
+/* ---------------------CSS For Experience Page---------------------------- */
+#project-container {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+#project-grid {
+    /*display: grid;
+    grid-template-columns: auto auto auto; */
+    margin: 5%;
+    text-align: center;
+    border: 1.5px solid #052512;
+    background-color: rgba(246, 246, 233, 0.47);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-flex;
+}
+
+#side-title {
+    font-family: 'Belgrano';
+    font-size: 140%;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    background: #052512;
+}
+
+#grid-inside {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+    background-color: #ffffffd4;
+    padding-bottom: 1.5px;
+}
+
+#grid-pic {
+    width: 275px;
+    height: 173px;
+}
+
+.gif {
+    pointer-events: none;
+}
+
+#project-titles {
+    color: #052512;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Average Sans';
+    display: inline-flex;
+}
+
+#project-type {
+    margin-left: 2%;
+    color: #052512;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Average Sans';
+    display: inline-flex;
+}
+
+#proj-description {
+    color: #052512;
+    font-size: 15px;
+    font-family: 'Average Sans';
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#proj-links {
+    color: #0244ff;
+}
+
+#work-programs-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#work-grid {
+    margin: 5%;
+    text-align: center;
+    border: 1.5px solid #052512;
+    background-color: rgba(189, 197, 228, 0.47);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#top-title {
+    font-family: 'Belgrano';
+    font-size: 140%;
+    color: white;
+    margin-top: -2.5%;
+    padding: 4px;
+    background: #052512;
+}
+
+#job-title {
+    text-align: left;
+    color: #052512;
+    font-family: 'Average Sans';
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 105%;
+    letter-spacing: 1px;
+}
+
+#time {
+    text-align: left;
+    color: #052512;
+    font-family: 'Average Sans';
+    padding-left: 10px;
+    font-size: 90%;
+    margin-top: -3%;
+}
+
+#time-c {
+    text-align: left;
+    color: #052512;
+    font-family: 'Average Sans';
+    padding-left: 10px;
+    font-size: 90%;
+    margin-top: -1%;
+}
+
+#job-description {
+    text-align: left;
+    color: #052512;
+    font-family: 'Average Sans';
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    
+}
+
+#job-duties {
+    text-align: left;
+    color: #052512;
+    font-family: 'Average Sans';
+    line-height: 1.5;
+    padding-right: 35px;
+}
+
+#googlePic {
+    margin: 5px;
+    width: 257px;
+    height: 170px;
+}
+
+#proj-pics {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -5%;
+}
+
+#proj-pics figure {
+    margin: auto;
+    width: 220px;
+    padding: 10px;
+}
+
+#proj-pics figure img {
+    border-radius: 45%;
+    width: 140%;  
 }
