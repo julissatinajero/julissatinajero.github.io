@@ -121,7 +121,7 @@
 /* ----------------------CSS For About Me Page----------------------------- */
 /*about me heading and phrases*/
 #aboutMe-container {
-    background-color: rgba(189, 197, 228, 0.52);
+    background-color: rgba(246, 246, 233, 0.47);
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 5%;
@@ -221,7 +221,7 @@
 /* gallery */
 #gallery {
     padding: 5%;
-    background-color: rgba(189, 197, 228, 0.52);
+    background-color: rgba(246, 246, 233, 0.47);
     margin: 5%;
     text-align: center;
 }
@@ -266,8 +266,6 @@
 }
 
 #project-grid {
-    /*display: grid;
-    grid-template-columns: auto auto auto; */
     margin: 5%;
     text-align: center;
     border: 1.5px solid #052512;
@@ -343,7 +341,7 @@
     margin: 5%;
     text-align: center;
     border: 1.5px solid #052512;
-    background-color: rgba(189, 197, 228, 0.47);
+    background-color: rgba(246, 246, 233, 0.47);
     padding-top: 2%;
     padding-bottom: 2%;
 }
